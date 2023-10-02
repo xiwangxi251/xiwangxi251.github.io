@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>onlinetest</title>
+      <link href="/2023/10/01/onlinetest/"/>
+      <url>/2023/10/01/onlinetest/</url>
+      
+        <content type="html"><![CDATA[<iframe src="lab3/onlinetest.html" width="100%" height="600"></iframe>  <div style="text-align:center; margin-left: auto; margin-right: auto;" class="lianjie"><style>.lianjie {    width: 100%; /* 可调整宽度，但确保大于或等于链接块的宽度 */    max-width: 600px; /* 举例，根据需要设置 */    margin-left: auto;    margin-right: auto;}.lianjie a:hover {  background-color: #3e9a9e;  color: #ffffff !important;  text-decoration: none !important;}.lianjie a {    display: block;    color: #32adcc;    padding: 8px 16px;    text-decoration: none;    width: 20%; /* 这仅会影响链接块的宽度 */    margin: 0 auto; /* 使链接块在.lianjie中居中 */    background-color: #f4f4f4;}</style><p><a href="lab3/onlinetest.html">&#x524D;&#x5F80;&#x7F51;&#x9875;</a></p></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇网页</title>
+      <link href="/2023/10/01/firstweb/"/>
+      <url>/2023/10/01/firstweb/</url>
+      
+        <content type="html"><![CDATA[<iframe src="lab2/Aboutme.html" width="100%" height="600"></iframe>     <div style="text-align:center; margin-left: auto; margin-right: auto;" class="lianjie"><style>.lianjie {    width: 100%; /* 可调整宽度，但确保大于或等于链接块的宽度 */    max-width: 600px; /* 举例，根据需要设置 */    margin-left: auto;    margin-right: auto;}.lianjie a:hover {  background-color: #3e9a9e;  color: #ffffff !important;  text-decoration: none !important;}.lianjie a {    display: block;    color: #32adcc;    padding: 8px 16px;    text-decoration: none;    width: 20%; /* 这仅会影响链接块的宽度 */    margin: 0 auto; /* 使链接块在.lianjie中居中 */    background-color: #f4f4f4;}</style><p><a href="lab2/Aboutme.html">&#x524D;&#x5F80;&#x7F51;&#x9875;</a></p></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/2023/09/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/09/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="LOGO"><a href="#LOGO" class="headerlink" title="LOGO"></a>LOGO</h1><p><img src="/2023/09/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/2.png" alt="logo"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

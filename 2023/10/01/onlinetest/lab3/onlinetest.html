@@ -1,0 +1,383 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>onlinetest</title>
+        <link rel="stylesheet" type="text/css" href="onlinetest.css">
+    </head>
+    <body>
+        <div class="hdaohang">
+        <h1>onlinetest</h1>
+        
+        <div class="input-group">
+            <button onclick="countCO()">Submit</button>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div class="daohang2">
+                <ul>
+                    <li class="font2"><a href="#bl1">MCQ</a> </li>
+                    <li class="font2"><a href="#bl2">MAQ</a></li>
+                    <li class="font2"><a href="#bl3">T/F</a></li>
+                </ul>
+        </div>
+        
+        <div><form id="scoreForm" action="shujuku.asp" method="post"  class="form">
+                <LABEL>姓名<INPUT type="text" name="fname"></LABEL>
+                <input type="hidden" id="scoreValue" name="score" value="">
+               </form>
+            
+               </div >  
+        <div>
+        <form action="#" method="post" class="form1">
+           <FIELDSET><LEGEND><p class="font2"><a name=bl1> multiple-choice question</a></p></LEGEND>
+            <table>               
+                   
+                <tr>
+                    <td>
+                        <p>1、水的化学式是什么？</p>
+                        <p><label><INPUT type="radio" name="que1" value="1">A. CO2</label><br></p>
+                        <p><label><INPUT type="radio" name="que1" value="2">B. O2</label><br></p>
+                        <p><label><INPUT type="radio" name="que1" value="co">C. H2O</label><br></p>
+                        <p><label><INPUT type="radio" name="que1" value="4">D. CH4</label><br></p>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <p>2、以下哪个星球是太阳系中最大的？</p>                      
+                        <p><label><INPUT type="radio" name="que2" value="1">A. 地球</label><br></p>
+                        <p><label><INPUT type="radio" name="que2" value="2">B. 金星</label><br></p>
+                        <p><label><INPUT type="radio" name="que2" value="co">C. 木星</label><br></p>
+                        <p><label><INPUT type="radio" name="que2" value="4">D. 火星</label><br></p>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <p>3、钢是由哪两种元素主要组成的？</p>
+                        <p><label><INPUT type="radio" name="que3" value="1">A. 碳和氢</label><br></p>
+                        <p><label><INPUT type="radio" name="que3" value="co">B. 碳和铁</label><br></p>
+                        <p><label><INPUT type="radio" name="que3" value="3">C. 铁和锌</label><br></p>
+                        <p><label><INPUT type="radio" name="que3" value="4">D. 碳和铜</label><br></p>
+                    </td> 
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p>4、熊猫主要生活在哪个国家？</p>
+                        <p><label><INPUT type="radio" name="que4" value="1">A. 日本</label><br></p>
+                        <p><label><INPUT type="radio" name="que4" value="2">B. 俄罗斯</label><br></p>
+                        <p><label><INPUT type="radio" name="que4" value="3">C. 加拿大</label><br></p>
+                        <p><label><INPUT type="radio" name="que4" value="co">D. 中国</label><br></p>
+                    </td> 
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p>5、光年是衡量什么的单位？</p>
+                        <p><label><INPUT type="radio" name="que5" value="1">A. 时间</label><br></p>
+                        <p><label><INPUT type="radio" name="que5" value="co">B. 距离</label><br></p>
+                        <p><label><INPUT type="radio" name="que5" value="3">C. 光亮度</label><br></p>
+                        <p><label><INPUT type="radio" name="que5" value="4">D. 能量</label><br></p>
+                    </td> 
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p>6、以下哪种食物中含有最多的维他命C？</p>
+                        <p><label><INPUT type="radio" name="que6" value="1">A. 牛奶</label><br></p>
+                        <p><label><INPUT type="radio" name="que6" value="2">B. 花生</label><br></p>
+                        <p><label><INPUT type="radio" name="que6" value="co">C. 橙子</label><br></p>
+                        <p><label><INPUT type="radio" name="que6" value="4">D. 羊肉</label><br></p>
+                    </td> 
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p>7、蜜蜂从哪里获取蜜糖的原料？</p>
+                        <p><label><INPUT type="radio" name="que7" value="1">A. 花的叶子</label><br></p>
+                        <p><label><INPUT type="radio" name="que7" value="co">B. 花的花蜜</label><br></p>
+                        <p><label><INPUT type="radio" name="que7" value="3">C. 树的树脂</label><br></p>
+                        <p><label><INPUT type="radio" name="que7" value="4">D. 草的果实</label><br></p>
+                    </td> 
+                </tr>
+                
+                <tr>
+                    <td>
+                        <p>8、DNA的双螺旋结构是由以下哪两位科学家首先提出的？</p>
+                        <p><label><INPUT type="radio" name="que8" value="co">A. Watson 和 Crick</label><br></p>
+                        <p><label><INPUT type="radio" name="que8" value="2">B. Curie 和 Rutherford</label><br></p>
+                        <p><label><INPUT type="radio" name="que8" value="3">C. Newton 和 Leibniz</label><br></p>
+                        <p><label><INPUT type="radio" name="que8" value="4">D. Darwin 和 Wallace</label><br></p>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <p>9、Linux 操作系统的吉祥物是什么动物</p>
+                        <p><label><INPUT type="radio" name="que9" value="1">A. 狐狸</label><br></p>
+                        <p><label><INPUT type="radio" name="que9" value="2">B. 熊</label><br></p>
+                        <p><label><INPUT type="radio" name="que9" value="3">C. 鲸鱼</label><br></p>
+                        <p><label><INPUT type="radio" name="que9" value="co">D. 企鹅</label><br></p>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <p>10、哪个算法用于在网页搜索中对网页进行排名？</p>
+                        <p><label><INPUT type="radio" name="que10" value="1">A. QuickSort</label><br></p>
+                        <p><label><INPUT type="radio" name="que10" value="co">B. PageRank</label><br></p>
+                        <p><label><INPUT type="radio" name="que10" value="3">C. Binary Search</label><br></p>
+                        <p><label><INPUT type="radio" name="que10" value="4">D. SHA-256</label><br></p><br>
+            <br>
+            <br>
+            <br>
+                    </td> 
+                </tr>
+                
+            </table></FIELDSET></form> 
+            
+            <form class="form1">
+                <FIELDSET><LEGEND><p class="font2"><a name=bl2>multiple-answer question</a></p></LEGEND>
+            <table>
+              
+                <tr>
+                    <td>
+                        <p>1、以下哪些国家是联合国的创始会员国？</p>
+                        <p><label><INPUT type="checkbox" name="check1" value="1">A. 中国</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check1" value="5">B. 日本</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check1" value="4">C. 德国</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check1" value="2">D. 英国</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check1" value="3">E. 美国</label><br></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>2、以下哪些星球是太阳系的气态行星？</p>
+                        <p><label><INPUT type="checkbox" name="check2" value="1">A. 木星</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check2" value="2">B. 土星</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check2" value="4">C. 火星</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check2" value="3">D. 天王星</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check2" value="5">E. 水星</label><br></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>3、以下哪些编程语言是面向对象的？</p>
+                        <p><label><INPUT type="checkbox" name="check3" value="1">A. Python</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check3" value="5">B. C</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check3" value="2">C. Java</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check3" value="4">D. Fortran</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check3" value="3">E. C#</label><br></p>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <p>4、在Web开发中，哪些技术/语言常与HTML一同使用？</p>
+                        <p><label><INPUT type="checkbox" name="check4" value="5">A. SQL</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check4" value="1">B. CSS</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check4" value="2">C. JavaScript</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check4" value="4">D. MIPS</label><br></p>
+                        <p><label><INPUT type="checkbox" name="check4" value="3">E. Python</label><br></p>
+                            <br>
+                            <br>
+
+                    </td>
+                </tr>
+            </table>
+        </FIELDSET>
+
+            </form>    
+
+                        <form action="#" method="post" id="animeForm" class="form1">
+                            <FIELDSET><LEGEND><p class="font2"><a name=bl3>True/False questions</a></p ></LEGEND>
+                            
+                            <table border="1" cellspacing="0" cellpadding="2">
+                                <thead>
+                                    <tr>
+                                        <th>名称</th>
+                                        <th>判断题</th>
+                                        <th>选择</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>京都</td>
+                                        <td>京都是日本的现任首都。</td>
+                                        <td>
+                                            <select name="question1">
+                                                <option value="false">正确</option>
+                                                <option value="true">错误</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>中二病也要谈恋爱</td>
+                                        <td>《中二病也要谈恋爱》的故事中，主角由于中二病的关系，经常产生幻觉并行为古怪。</td>
+                                        <td>
+                                            <select name="question2">
+                                                <option value="true">正确</option>
+                                                <option value="false">错误</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>少女终末旅行</td>
+                                        <td>动画《少女终末旅行》描述的是两位少女在末日废墟中的生存之旅。</td>
+                                        <td>
+                                            <select name="question3">
+                                                <option value="true">正确</option>
+                                                <option value="false">错误</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>柑橘味香气</td>
+                                        <td>《柑橘味香气》讲述的是一个男孩与柑橘树之间的友情故事。</td>
+                                        <td>
+                                            <select name="question4">
+                                                <option value="false">正确</option>
+                                                <option value="true">错误</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>玉子市场</td>
+                                        <td>《玉子市场》是描述关于一个超市内部的职员恋情和冲突的日常生活。</td>
+                                        <td>
+                                            <select name="question5">
+                                                <option value="false">正确</option>
+                                                <option value="true">错误</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </FIELDSET>
+                            </table>
+                            <br>
+                            
+                        </form>                                                                              
+            <div class="daohang">          
+                    <p class="font2">
+                        <SCRIPT>    
+                            myDate = new Date();  //创建一个日期对象。
+                            myHour = myDate.getHours();  //获得当前的小时数。
+                            
+                                if(myHour<6)  //根据小时数显示不同的欢迎信息。
+                                  welcomeString="凌晨好";
+                                else if(myHour<9)
+                                  welcomeString="早上好";
+                                else if(myHour<12)
+                                  welcomeString="上午好";
+                                else if(myHour<14)
+                                  welcomeString="中午好";
+                                else if(myHour<17)
+                                  welcomeString="下午好";
+                                else if(myHour<19)
+                                  welcomeString="傍晚好";
+                                else if(myHour<22)
+                                  welcomeString="晚上好";
+                                else
+                                  welcomeString="夜里好";
+                            arrayDay=["日" , "一" , "二" , "三" , "四" , "五" , "六" ];  /*定义一个字符数组以显示星期数*/
+                            document.write((myDate.getMonth()+1) + "月" + myDate.getDate() + "日<br>");
+                            document.write("星期" + arrayDay[myDate.getDay()] +"<br>");
+                            document.write(welcomeString);
+                            
+                            </SCRIPT>
+                    </p>
+                    <div class="font1">
+                        <span id="elapsedTime" >0:00</span> seconds passed 
+                    </div>
+                        <script>
+                            let startTime = new Date();  // 当前页面打开的时间
+                        
+                            // 每秒更新一次已过时间
+                            setInterval(function() {
+                                let now = new Date();
+                                let elapsedSeconds = Math.floor((now - startTime) / 1000);  // 转换为秒
+                                let minutes = Math.floor(elapsedSeconds / 60);
+                                let seconds = elapsedSeconds - (minutes * 60);
+                                let displayText = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+                        
+                                // 更新显示时间的元素
+                                document.getElementById('elapsedTime').textContent = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+                                
+            
+                            }, 1000);  // 每1000毫秒（即1秒）更新一次
+                            
+                        </script>
+               <br>
+               <br>
+               <br>
+                        </div>
+            <br>
+            <br>
+        
+        </div>
+        <script>
+            function countSelectedCO() {
+             // 使用querySelectorAll选择所有已选中的单选按钮，它的value值为'co'
+              const coSelectedInputs = document.querySelectorAll('input[type="radio"][value="co"]:checked');
+    
+             // 输出选中的数量
+              console.log(coSelectedInputs.length);
+              return coSelectedInputs.length;
+            }
+            function countRowsSelectedAll123() {
+                    // 获取所有的<tr>标签
+                      const rows = document.querySelectorAll('tr');
+    
+                      let count = 0;
+
+                      rows.forEach(row => {
+                     // 对于每一行，检查是否所有的值1、2和3的复选框都已选中
+                    if (row.querySelector('input[type="checkbox"][value="1"]:checked') &&
+                       row.querySelector('input[type="checkbox"][value="2"]:checked') &&
+                       row.querySelector('input[type="checkbox"][value="3"]:checked')) {
+                       count++;
+                        }
+                       });
+
+                     // 输出满足条件的行数
+                    console.log(count);
+                     return count;
+                     }
+                     function countTrueAnswers() {
+                                 // 获取所有<select>元素
+                              const selects = document.querySelectorAll('#animeForm select');
+    
+                                let trueCount = 0;
+
+                                // 遍历每一个<select>并检查它的值
+                              selects.forEach(select => {
+                              if (select.value === "true") {
+                                     trueCount++;
+                            }
+                              });
+                              
+                      return trueCount;
+}
+
+
+
+            function countCO() {
+                   const count = countSelectedCO()*5+countRowsSelectedAll123()*12.5+countTrueAnswers();
+                   document.getElementById('scoreValue').value = count;
+                   document.getElementById('scoreForm').submit();
+
+                   let startTime = new Date();  // 当前页面打开的时间
+                   let elapsedElement = document.getElementById('elapsedTime');
+                   let displayText = elapsedElement.textContent;
+                
+               
+                alert('你的得分是: ' + count+'\n'+'\n'+'你的用时是'+displayText);
+            }
+        </script>       
+    </body>
+</html>
